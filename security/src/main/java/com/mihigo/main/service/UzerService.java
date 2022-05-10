@@ -13,7 +13,7 @@ public interface UzerService {
 	void addRoleToUser(String username, String role);
 
 	Uzer getUzer(String username);
-
+	
 	List<Uzer> getUser();
 
 }
